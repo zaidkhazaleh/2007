@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  background: url('./2007/IMG_0369.jpeg') no-repeat center center fixed;
+  background: url('https://raw.githubusercontent.com/zaidkhazaleh/2007/refs/heads/main/IMG_0369.jpeg') no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
   color: #f5f5f5;

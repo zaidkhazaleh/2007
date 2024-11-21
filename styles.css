@@ -33,16 +33,21 @@ body {
 }
 
 #profile-box h2 {
-  font-size: 1.375rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  color: #fff;
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #profile-box p {
-  font-size: 1rem;
-  margin-bottom: 1.25rem;
-  color: #d1d1d1;
+    font-size: 1.1rem;
+    color: #eee;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .button-container a {
@@ -62,7 +67,7 @@ body {
 }
 
 .button-container a:hover {
-  background: #34495e;
+  background: #1C1C1C;
   transform: translateY(-3px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }

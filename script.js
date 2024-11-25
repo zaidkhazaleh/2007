@@ -28,3 +28,25 @@ function toggleDropdown() {
     const dropdown = document.querySelector('.dropdown');
     dropdown.style.display = dropdown.style.display === 'none' || dropdown.style.display === '' ? 'grid' : 'none';
 }
+
+
+(function () {
+        let devtoolsOpen = false;
+
+        const element = new Image();
+        Object.defineProperty(element, 'id', {
+            get: function () {
+                devtoolsOpen = true;
+                throw new Error("DevTools detected!");
+            }
+        });
+
+        setInterval(function () {
+            devtoolsOpen = false;
+            console.log(element);
+            if (devtoolsOpen) {
+                document.body.innerHTML = ''; // حذف محتوى الصفحة
+                alert('تم اكتشاف أدوات المطور! سيتم الآن حذف الصفحة.');
+            }
+        }, 1000);
+    })();

@@ -52,25 +52,26 @@
             border: 3px solid #00BFFF;
         }
  
+        
         #profile-box h2 {
             font-size: 1.8rem;
-            margin: 8px 0;
+            margin: 10px 0;
             color: #fff;
             text-transform: capitalize;
             letter-spacing: 2px;
             font-weight: bold;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            text-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
         }
  
         #profile-box p {
-            font-size: 1rem;
-            color: #eee;
-            margin-bottom: 15px;
+            font-size: 1.1rem;
+            color: #ddd;
+            margin-bottom: 20px;
             letter-spacing: 1px;
-            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         }
  
-           .button-container a {
+        .button-container a {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -88,14 +89,14 @@
             width: 85%;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
         }
- 
+ 
         .button-container a:hover {
             background: rgba(255, 255, 255, 0.2);
             color: #00BFFF;
             transform: translateY(-5px);
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
         }
- 
+ 
         .button-container a i {
             margin-right: 8px;
             font-size: 1.2rem;

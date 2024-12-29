@@ -70,34 +70,33 @@
             text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
         }
  
-        .button-container a {
+           .button-container a {
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 8px auto;
-            padding: 12px;
+            margin: 10px auto;
+            padding: 12px 20px;
             color: white;
-            background: rgba(255, 255, 255, 0.2);
-            border: none;
-            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
             text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: bold;
+            font-size: 1rem;
+            font-weight: 500;
             letter-spacing: 1px;
-            transition: background 0.3s ease, transform 0.3s ease, color 0.3s ease;
-            width: 80%;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            width: 85%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
         }
- 
+ 
         .button-container a:hover {
-            background: rgba(255, 255, 255, 0.4);
+            background: rgba(255, 255, 255, 0.2);
             color: #00BFFF;
-            transform: scale(1.05);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
         }
- 
+ 
         .button-container a i {
-            margin-right: 5px;
-            font-size: 1.1rem;
+            margin-right: 8px;
+            font-size: 1.2rem;
         }
-  
- 
